@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-<h1>THE GREAT RGB COLOR GAME</h1>
+<h1>THE GREAT <span id="colorDisplay">RGB</span> COLOR GAME</h1>
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button id="easyBtn">Easy</button>
+	<button id="hardBtn" class="selected">Hard</button>
+</div>
+
 <div id="container">
 	<div class="square"></div>
 	<div class="square"></div>
@@ -17,3 +27,5 @@
 <script type="text/javascript"  src="colorGame.js"></script>
 </body>
 </html>
+
+
